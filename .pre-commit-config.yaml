@@ -12,3 +12,4 @@ repos:
         entry: pytest
         language: system
         stages: [pre-push]
+        files: ^tests/.*\.py$
